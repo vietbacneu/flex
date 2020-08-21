@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+header{
+    width: 1187px;
+    height: 80.8px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 10px #888888;
+border-radius: 5px;}
+.header-content{
+
+    background-color: #ebe5e5;
+    padding-left: 100px;
+    font-style: italic ;
+    font-weight: 500;
+    font-size: 18px;
+}
+.header-content span {
+    padding-left:  600px;
+}
+main{
+    width: 1250px;
+    height: auto;
+    margin: 0 auto;
+    margin-top:10px ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    line-height: 17px;
+
+}
+.container div:nth-child(1){
+
+    margin-right:100px ;
+}
+.nav{
+    margin-right: 40px;
+    
+}
+.nav a{
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+.nav a:hover{
+    font-size: 23px;
+}
+.menu-list {
+    position: relative;
+}
+.menu-list .list {
+    list-style: none;
+    width: 78.3px;
+
+}
+.list li a{
+    text-transform: capitalize;
+    transition: all 0.5s;
+}
+.menu-list .list 
+{   font-size: 16px;
+    font-weight: 600;
+    display: none;
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+}
+
+.menu-list a:hover {
+font-size: 23px;
+}
+.menu-list:hover .list {
+    display: block;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+.list li{
+    padding-top:20px;
+}
+.list li a:hover .list{
+font-size: 23px;
+}
+.container div:nth-child(6){
+    margin-left: 130px;
+}
+.container div:nth-child(7){
+    margin-left: 20px;
+}
+.container div:nth-child(8){
+    margin-left: 10px;
+}
+input{
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-left: 5px;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.content {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.item-new{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item-sp{
+    margin: 20px 0 ;
+}
+
+.item-sp a img{
+    width: 273.837px;
+    height: 273.837px ;
+    border-radius: 10px;
+}
+.tensp{
+    padding-top:10px;
+}
+.xemthem{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    width: 180px;
+    margin: auto;
+    margin-top: 20px
+
+}
+.xemthem a {
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: 1px solid rgb(247, 103, 84);
+    background-color: rgb(247, 103, 84);
+    border-radius: 10px;
+    transition: all  0.5s;
+}
+.xemthem a:hover{
+    background-color: rgb(221, 236, 91);
+   transform: scale(1.2);
+
+}
+.xemthem1{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 300px;
+    margin: auto;
+    margin-top: 40px
+
+}
+.xemthem1 a {
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: 1px solid yellow;
+    background-color: rgb(187, 238, 45);
+    border-radius: 10px;
+    transition: all  0.5s;
+}
+.xemthem1 a:hover{
+    background-color: violet;
+   transform: scale(1.2);
+
+}
+.xemthem2{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 180px;
+    margin: auto;
+    margin-top: 20px
+
+}
+.xemthem2 a {
+    display: block;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    border: 1px solid yellow;
+    background-color: rgb(187, 238, 45);
+    border-radius: 10px;
+    transition: all  0.5s;
+}
+.xemthem2 a:hover{
+    background-color: violet;
+   transform: scale(1.2);
+
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">Miễn phí giao hàng toàn quốc <span>Hotline: 028 7100.6789</span></div>
+        <nav class="container">
+
+            <div> <a href=""><img src="//theme.hstatic.net/1000253775/1000617102/14/logo.png?v=32"
+                        style="width:180px; height: 60px;" alt=""> </a> </div>
+            <div class="nav"> <a href="">Trang chủ</a>  </div>
+                <div class="nav  menu-list"> <a href="about2.html"> Sản Phẩm </a> 
+                    <ul class="list">
+                        <li> <a href="https://www.160store.com/collections/quan"> Quần  </a></li>
+                        <li><a href="https://www.160store.com/collections/ao    "> Áo </a></li>
+                        <li><a href="https://www.160store.com/collections/nhom-phu-kien-khac"> Ví </a></li>
+                        <li><a href="https://www.160store.com/collections/balo-tui-xach"> Balo </a></li>
+                    </ul>
+                </div>
+            
+            <div class="nav"><a href="about1.html"> Giới Thiệu</a> </div>
+            
+            <div class="nav  menu-list"> <a href="about3.html">Hướng dẫn - Đổi Trả
+                </a>
+                <ul class="list">
+                    <li> <a href="https://www.160store.com/pages/huong-dan-dat-hang"> Đặt Hàng </a></li>
+                    <li><a href="https://www.160store.com/pages/chinh-sach-doi-tra"> Đổi Trả </a></li>
+                    <li><a href="https://www.160store.com/pages/tai-khoan-ngan-hang"> TK Ngân Hàng </a></li>
+                    <li><a href="https://www.160store.com/pages/kiem-tra-don-hang"> Đơn Hàng </a></li>
+                </ul>
+            </div>  
+            <div><input type="search" placeholder="Search" class="search"></div>
+            <div class="icon"> <a href=""> <i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            </div>
+            <div class="icon"><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+
+
+
+
+        </nav>
+
+    </header>
+    <main>
+        <div class="xemthem2"><a href="https://www.160store.com/collections/san-pham-moi"> New In </a></div>
+        <section class="item-new">
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+
+        </section>
+        <div class="xemthem"><a href="https://www.160store.com/collections/san-pham-moi"> Xem Thêm </a></div>
+        <div class="xemthem1"><a href="https://www.160store.com/collections/outlet"> Sale Up to </a></div>
+
+        <section class="item-new">
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+            <div class="item-sp">
+                <a href="">
+                    <img src="//product.hstatic.net/1000253775/product/z2034795296216_a876cfd6b4c1debafc7934d6e7bc6b28_31fa21b1f9664644985490178c2f3d4a_large.jpg"
+                        alt="">
+                    <div class="tensp">Tank top M.B w embroidery logo ss20</div>
+                </a>
+            </div>
+
+        </section>
+        <div class="xemthem"><a href="https://www.160store.com/collections/san-pham-moi"> Xem Thêm </a></div>
+
+
+    </main>
+</body>
+
+</html>
